@@ -8,11 +8,11 @@ pipeline {
             }
         }
     
-         stage ("terraform init") {
-             steps {
-                 sh ("terraform -reconfigure") 
-             }
-         }
+        // stage ("terraform init") {
+            // steps {
+             //    sh ("terraform -reconfigure") 
+           //  }
+         // }
         
         stage ("terraform Plan") {
             steps {
