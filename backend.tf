@@ -4,5 +4,6 @@ terraform {
     key = "main"
     region = "us-east-1"
     dynamodb_table = "devops-dynamodb-table"
+    use_lockfile = true
   }
 }
